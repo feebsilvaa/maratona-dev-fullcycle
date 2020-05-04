@@ -65,3 +65,28 @@
 
 # CodeBot
   * Retorna a resposta dos comandos enviados
+
+
+# Desafio 01
+
+1. Instalar o Node.js em seu computador
+
+2. Criar um webserver que escuta na porta 3000
+
+3. Ao acessar o webserver, a seguinte mesagem deverá aparecer: "Maratona Full Cycle 2.0"
+
+4. Instalar o Docker em seu computador
+
+5. Gerar uma imagem Docker dessa aplicação a partir da imagem node:14.1-alpine.
+  
+  sudo docker builb -t dockerhub-id/nome-imagem .
+
+6. Publicar a imagem no Dockerhub
+
+  sudo docker push dockerhub-id/nome-imagem
+
+7. Quando executarmos: docker run -p 3000:3000 seu-login-docker/nome-da-sua-imagem deveremos ver a mensagem na porta 3000 de nosso browser
+
+  sudo docker run -it -d -p 3000:3000 feebsilvaa/maratona-dev-fullcycle
+
+8. Postar nos comentários do vídeo a URL da sua imagem para que possamos executar
