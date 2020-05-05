@@ -2,7 +2,6 @@
 
 # Maratona Dev Fullcycle
 
-
 # Microsserviços
 
 * Microsserviços não são módulos

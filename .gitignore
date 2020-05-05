@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/go,node,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=go,node,visualstudiocode
+# Created by https://www.gitignore.io/api/go,node,react,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=go,node,react,visualstudiocode
 
 ### Go ###
 # Binaries for programs and plugins
@@ -129,6 +129,19 @@ dist/
 tmp/
 temp/
 
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -140,4 +153,4 @@ temp/
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/go,node,visualstudiocode
+# End of https://www.gitignore.io/api/go,node,react,visualstudiocode
